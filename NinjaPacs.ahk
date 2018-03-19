@@ -384,6 +384,7 @@ Run, taskkill.exe /f /im iexplore.exe /t
 return
 
 ; Restart Windows Explorer
+
 !+e::
 Process, Close, explorer.exe
 Sleep, 5000

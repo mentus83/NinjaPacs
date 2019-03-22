@@ -316,7 +316,7 @@ return
 
 $NumpadAdd::
 SetTitleMatchMode, 2
-If WinExist("[SpeechMagic]"){
+If WinExist("[SpeechMagic6]"){
 	ControlSend, TWPSpeechMagic1, {NumpadAdd}, ,ReportBannerActorPanel
 	SetTitleMatchMode, 1
 	return
